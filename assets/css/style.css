@@ -1,0 +1,124 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Definição de variáveis */
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+/* Reset de estilos globais */
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+/* Estilos globais do corpo */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+/* Estilos do contêiner principal */
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos para formulário */
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+/* Estilos para resultados de IMC */
+.red {
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.orange {
+  background: rgb(255, 136, 0);
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.yellow {
+  background: #fffb00;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.green {
+  background: #0f0;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.blue {
+  background: rgb(0, 174, 255);
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.bad {
+  background: #686868;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* Layout para apresentar IMC e Resultado em duas colunas */
+.imc {
+  width: 300px;
+  float: left;
+}
+
+#prim {
+  width: 50px;
+}
+
+.resultado {
+  width: 300px;
+  float: left;
+}
+

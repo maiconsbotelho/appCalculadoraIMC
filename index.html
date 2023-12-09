@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcule seu IMC</title>
+    <!-- Link para o arquivo de estilos -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+
+    <section class="container">
+
+      <!-- Seção primária contendo a tabela IMC e o resultado -->
+      <div class="prim">
+        <h2>Tabela IMC</h2>
+        <!-- Div para exibir a tabela IMC -->
+        <div class="imc">
+            <h5>IMC</h5>  
+            <!-- Lista de classificações de IMC -->
+            <p>
+                Menos do que 18,5<br>
+                Entre 18,5 e 24,9<br>
+                Entre 25 e 29,9<br>
+                Entre 30 e 34,9<br>
+                Entre 35 e 39,9<br>
+                Mais do que 40
+            </p>                          
+        </div>
+        <!-- Div para exibir o resultado do IMC -->
+        <div class="resultado">
+            <h5>Resultado</h5>  
+            <!-- Lista de classificações de resultados -->
+            <p>
+                Abaixo do peso<br>
+                Peso normal<br>
+                Sobrepeso<br>
+                Obesidade grau 1<br>
+                Obesidade grau 2<br>
+                Obesidade grau 3
+            </p>                          
+        </div>
+      </div>
+
+      <!-- Limpar o float para evitar interferências no layout -->
+      <div style="clear: both"></div>
+
+      <!-- Título principal da página -->
+      <h1>Calcule seu IMC</h1>
+
+      <!-- Formulário para calcular o IMC -->
+      <form action="/" id="form" method="POST">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" name="peso">
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" name="altura">
+        <button type="submit">Calcular</button>
+      </form>
+
+      <!-- Div para exibir o resultado do cálculo de IMC -->
+      <div id="resultado"></div>
+
+    </section>
+
+    <!-- Inclusão do script JavaScript no final da página -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+
+</html>
