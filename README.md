@@ -23,7 +23,14 @@ Este é um projeto simples de uma calculadora de IMC desenvolvido como parte do 
 
 ## Capturas de Tela
 
-![Captura de Tela da Aplicação](./screenshots/screenshot.png)
+## Capturas de Tela
+
+![Captura de Tela 1](https://raw.githubusercontent.com/maiconsbotelho/appCalculadoraIMC/main/assets/screenshots/screenshots1.jpg)
+
+![Captura de Tela 2](https://raw.githubusercontent.com/maiconsbotelho/appCalculadoraIMC/main/assets/screenshots/screenshots2.jpg)
+
+![Captura de Tela 3](https://raw.githubusercontent.com/maiconsbotelho/appCalculadoraIMC/main/assets/screenshots/screenshots3.jpg)
+
 
 ## Contribuição
 
@@ -32,7 +39,7 @@ Sinta-se à vontade para contribuir com melhorias ou correções. Abra uma issue
 ## Autor
 
 Maicon Botelho
-https://www.linkedin.com/in/maiconbotelho/
+(https://www.linkedin.com/in/maiconbotelho/)
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://www.ecma-international.org/ecma-262/6.0/)
 
