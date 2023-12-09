@@ -1,7 +1,10 @@
 
 # Calculadora de IMC (Índice de Massa Corporal)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://www.ecma-international.org/ecma-262/6.0/)
 
 Este é um projeto simples de uma calculadora de IMC desenvolvido como parte do curso de JavaScript e TypeScript do Básico ao Avançado. A aplicação permite que os usuários calculem seu Índice de Massa Corporal com base no peso e altura fornecidos.
+
+**Acesse a [Calculadora de IMC](https://imccalculadora.maiconbotelho.com.br/)** para experimentar!
 
 ## Funcionalidades
 
@@ -23,8 +26,6 @@ Este é um projeto simples de uma calculadora de IMC desenvolvido como parte do 
 
 ## Capturas de Tela
 
-## Capturas de Tela
-
 ![Captura de Tela 1](https://raw.githubusercontent.com/maiconsbotelho/appCalculadoraIMC/main/assets/screenshots/screenshots1.jpg)
 
 ![Captura de Tela 2](https://raw.githubusercontent.com/maiconsbotelho/appCalculadoraIMC/main/assets/screenshots/screenshots2.jpg)
@@ -39,7 +40,5 @@ Sinta-se à vontade para contribuir com melhorias ou correções. Abra uma issue
 ## Autor
 
 Maicon Botelho
-(https://www.linkedin.com/in/maiconbotelho/)
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://www.ecma-international.org/ecma-262/6.0/)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/maiconbotelho/)
