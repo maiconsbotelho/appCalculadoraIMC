@@ -4,7 +4,7 @@
 
 Este é um projeto simples de uma calculadora de IMC desenvolvido como parte do curso de JavaScript e TypeScript do Básico ao Avançado. A aplicação permite que os usuários calculem seu Índice de Massa Corporal com base no peso e altura fornecidos.
 
-**Acesse a [Calculadora de IMC](https://imccalculadora.maiconbotelho.com.br/)** para experimentar!
+**Acesse a [Calculadora de IMC](https://maiconsbotelho.github.io/appCalculadoraIMC/)** para experimentar!
 
 ## Funcionalidades
 
